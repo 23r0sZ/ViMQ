@@ -49,7 +49,7 @@ class Trainer(object):
         # GPU or CPU
         #torch.cuda.set_device(self.args.gpu_id)
         # self.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
-        self.model.to("cuda")
+        #self.model.to("cuda")
         
 
     def train(self):
