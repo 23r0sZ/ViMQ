@@ -19,7 +19,7 @@ MODEL_CLASSES = {
 }
 
 MODEL_PATH_MAP = {
-    'vimq_model': "manhtt-079/vipubmed-deberta-xsmall"
+    'vimq_model': "vinai/phobert-base"
 }
 
 def init_logger():
